@@ -10,7 +10,7 @@ class Graph:
         if not self.is_show:
             print('Отображение данных закрыто')
         else:
-            print(' '.join(map(str, self.data)))  # Выводим числа через пробел
+            print(' '.join(map(str, self.data)))
 
     def show_graph(self):
         if not self.is_show:
