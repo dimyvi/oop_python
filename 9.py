@@ -1,5 +1,7 @@
 class Cart:
-    goods = []
+    def __init__(self):
+        self.goods = []
+
     def add(self, gd):
         self.goods.append(gd)
 
