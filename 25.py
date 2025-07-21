@@ -2,7 +2,7 @@ class Book:
     def __init__(self, author, title, price):
         self.__author = author
         self.__title = title
-        self.price = price
+        self.__price = price
 
     def set_title(self, title):
         self.__title = title
