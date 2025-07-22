@@ -12,3 +12,6 @@ class Car:
             self.__model = st
 
 
+m = Car()
+m.model = 'BMW'
+print(m.model)
