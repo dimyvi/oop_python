@@ -15,9 +15,3 @@ class Body:
 
     def __gt__(self, other):
         return self.mass() > other
-
-    def __le__(self, other):
-        return self.mass() <= other
-
-    def __ge__(self, other):
-        return self.mass() >= other
